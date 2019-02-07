@@ -1,5 +1,7 @@
 <?php
 
+// TODO - add duration / sleep to functions
+
 $myDay = new MyDay();
 //$myDay->run();
 
@@ -73,6 +75,7 @@ class MyDay
     private function getDressed()
     {
         echo '👚 get dressed' . PHP_EOL;
+        $this->faffAbout();
     }
 
     private function walkBingo()
@@ -103,5 +106,10 @@ class MyDay
     private function sleep()
     {
         echo '💤 sleep' . PHP_EOL;
+    }
+
+    private function faffAbout()
+    {
+        sleep(5);
     }
 }
