@@ -65,42 +65,50 @@ class MyDay
     private function wakeUp()
     {
         echo '🛏 wake up' . PHP_EOL;
+        sleep(1);
     }
 
     private function shower()
     {
         echo '🚿 shower' . PHP_EOL;
+        sleep(3);
     }
 
     private function getDressed()
     {
         echo '👚 get dressed' . PHP_EOL;
+        sleep (2);
         $this->faffAbout();
     }
 
     private function walkBingo()
     {
         echo '🐕 walk Bingo' . PHP_EOL;
+        sleep(3);
     }
 
     private function sport()
     {
         echo '👟 run' . PHP_EOL;
+        sleep(4);
     }
 
     private function netflixNChill()
     {
         echo '🍿 TV' . PHP_EOL;
+        sleep(4);
     }
 
     private function friends()
     {
         echo '🍻 friends' . PHP_EOL;
+        sleep(4);
     }
 
     private function read()
     {
         echo '📚 books' . PHP_EOL;
+        sleep(1);
     }
 
     private function sleep()
